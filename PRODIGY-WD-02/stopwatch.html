@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="chronometer.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="stopwatchCSS.css">
+</head>
+<body>
+<div class="mainContainer">
+    <div class="container">
+        <div class="timer">
+            <span class="text minute">0 :</span>
+            <span class="text sec">&nbsp;0 : </span>
+            <span class="text msec">&nbsp;0</span>
+        </div>
+        <div class="clicks">
+            <button class="button reset hidden">Reset</button>
+            <button class="button play">Play</button>
+            <button class="button lap hidden">Laps</button>
+        </div>
+    </div>
+    <div class="lap-cont">
+        <ul class="laps">
+            <div class="no-laps">No laps</div>
+            <button class="lap-clear-button hidden">Clear All</button>
+        </ul>
+    </div>
+</div>
+<script src="stopwatchJS.js"></script>
+</body>
+</html>
